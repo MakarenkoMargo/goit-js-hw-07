@@ -34,10 +34,10 @@ function onGalleryContainerClick(e) {
     return;
   }
 
-  oridinalGalleryElLink(e.target.dataset.source);
+  showModal(e.target.dataset.source);
 }
 
-function oridinalGalleryElLink(src) {
+function showModal(src) {
   basicLightbox
     .create(
       `
